@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">centerPick</string>
+
+    <string name="restapi_key">KakaoAK a58f90fdd5bc2bfbd6f8658473a829aa</string>
+
+    <string name="odsay_key">UQpy5z5jYlkG7opjycDDO26k1WqH5NwUshX6iB5fir8</string>
+    <string name="api_key">HbK4BvjG4moF4d2D74EO7Jswx68CbhkiHPz9JEEVFi42CaRp6%2BvwKFAw7hWFpn4SWnXutx3%2BLdlDOOuUcqyI1w%3D%3D</string>
+    <string name="dialog_title">삭제 확인</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_cancel">취소</string>
+</resources>

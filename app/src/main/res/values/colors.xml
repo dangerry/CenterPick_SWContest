@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryBottom">#eff0f4</color>
+    <color name="colorPrimaryDark">#0033ff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="stationColor">#f5e9f5</color>
+    <color name="textColor">#5e697b</color>
+    <color name="selectionColor">#FFF0F5</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

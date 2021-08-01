@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <!--        <VideoView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:id="@+id/bgVideoView" />-->
+        <ddwucom.contest.centerpick.video.MyVideoView
+            android:id="@+id/bgVideoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_start"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:background="#00FFFFFF"
+            android:onClick="onClick"
+            android:text="지도로 시작하기"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_start2"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="onClick"
+            android:text="지하철로 시작하기"
+            android:textColor="#FFFFFF" />
+
+    </FrameLayout>
+
+</RelativeLayout>
